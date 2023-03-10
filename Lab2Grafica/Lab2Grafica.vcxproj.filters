@@ -18,15 +18,13 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <None Include="dlls\glut32.dll">
-      <Filter>Dlls</Filter>
-    </None>
-    <None Include="dlls\opengl32.dll">
-      <Filter>Dlls</Filter>
-    </None>
-  </ItemGroup>
-  <ItemGroup>
     <CopyFileToFolders Include="dlls\glu32.dll">
+      <Filter>Dlls</Filter>
+    </CopyFileToFolders>
+    <CopyFileToFolders Include="dlls\glut32.dll">
+      <Filter>Dlls</Filter>
+    </CopyFileToFolders>
+    <CopyFileToFolders Include="dlls\opengl32.dll">
       <Filter>Dlls</Filter>
     </CopyFileToFolders>
   </ItemGroup>
